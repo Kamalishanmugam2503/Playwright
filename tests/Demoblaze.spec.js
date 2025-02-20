@@ -10,6 +10,7 @@ test ('Locate multiple elements', async ({page})=> {
    const a = await link.textContent();
    console.log(a);
    
+   await page.waitForTimeout(5000);
    }
 
 })
